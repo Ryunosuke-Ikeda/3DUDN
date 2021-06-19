@@ -171,6 +171,7 @@ window.addEventListener("DOMContentLoaded", () => {
     if (facemode == "fun") {
       vrm.blendShapeProxy.setValue(VRMSchema.BlendShapePresetName.Fun, 0.5)
       vrm.blendShapeProxy.setValue(VRMSchema.BlendShapePresetName.I, 0.11)
+      vrm.blendShapeProxy.setValue(VRMSchema.BlendShapePresetName.Blink,vrm._manualBlinkVal,)
       vrm.blendShapeProxy.update()
     }
     if (facemode == "sad") {
